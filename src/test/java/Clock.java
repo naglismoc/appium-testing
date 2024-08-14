@@ -29,8 +29,8 @@ public class Clock {
 //      https://github.com/appium/java-client
         UiAutomator2Options options = new UiAutomator2Options()
                 .setUdid(uid)
-//                .setApp("./Space_terra.apk")
-                .setAppPackage(appPackage)
+//                .setApp("./Space_terra.apk") //arba nurodome programos .apk
+                .setAppPackage(appPackage)//arba setAppPackage
                 .setAppActivity(appActivity);
         driver = new AndroidDriver(
                 new URL("http://127.0.0.1:4723"),
